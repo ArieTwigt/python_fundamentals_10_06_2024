@@ -51,3 +51,9 @@ if age > 18 and (zoontje_baas == "Yes" or drank == "Cola"):
 else:
     print("No")
 # %%
+print("Jouw naam begint met een 'A'")
+
+# %%
+print("Jouw naam begint met een \"A\" ")
+
+# %%
