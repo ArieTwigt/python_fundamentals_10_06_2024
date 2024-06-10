@@ -32,4 +32,5 @@ values = ['arie', 34, 'Katwijk']
 # %%
 person = dict(zip(properties, values))
 person
+
 # %%
