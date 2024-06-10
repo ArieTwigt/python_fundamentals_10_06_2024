@@ -1,6 +1,6 @@
 #%%
 import requests
-import pandas
+import pandas as pd
 
 #%% define the endpoint
 endpoint = "https://opendata.cbs.nl/ODataApi/odata/85791NED/UntypedDataSet"
@@ -21,7 +21,7 @@ len(records)
 # %%
 records[40]
 # %%
-df = pandas.DataFrame(records)
+df = pd.DataFrame(records)
 # %%
 df.info()
 # %%
